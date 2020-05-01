@@ -5,7 +5,7 @@
         <img src="../assets/jhar-white.png" class="brand" alt="Logo" />
         <h1 class="title">.عبر، أثّر، غيّر</h1>
 
-        <b-button type="is-danger" icon-right="delete" href="#follow-us">
+        <b-button type="is-danger" icon-right="arrow-down-drop-circle" href="#follow-us">
           <strong>تابعونا</strong>
         </b-button>
       </div>

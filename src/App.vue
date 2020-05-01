@@ -1,19 +1,25 @@
 <template>
   <div id="app">
     <Hero/>
+    <About/>
     <Follow/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Hero from './components/Hero.vue'
+import About from './components/About.vue'
 import Follow from './components/Follow.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Hero,
-    Follow
+    About,
+    Follow,
+    Footer
   }
 }
 </script>
