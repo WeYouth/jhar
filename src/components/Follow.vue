@@ -38,9 +38,9 @@ export default {
 <style scoped lang="scss">
 @import "@/assets/style.scss";
 
-.title{
+.title {
+  font-family: "RB-Bold";
   font-size: 3rem;
-  font-weight: 600;
   line-height: 1.125;
 }
 
@@ -58,21 +58,21 @@ li {
   max-height: 10em;
 }
 
-@media screen and (max-width: 620px){
-  li{
-    margin: 0 3em ;
+@media screen and (max-width: 620px) {
+  li {
+    margin: 0 3em;
   }
 }
 
-@media screen and (max-width: 480px){
-  .title{
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.125;
-}
-  li{
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+  }
+  li {
     display: block;
-    margin: 3em ;
+    margin: 3em;
   }
 }
 </style>

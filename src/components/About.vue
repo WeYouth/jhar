@@ -26,11 +26,12 @@ export default {
 <style scoped>
 .title {
   margin: 40px 0 0;
+  font-family: "RB-Bold";
 }
 
 .about{
+  font-family: "RB-Regular";
   font-size: 3rem;
-  font-weight: 400;
   line-height: 1.125;
 }
 
@@ -41,8 +42,5 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-a {
-  color: #42b983;
 }
 </style>

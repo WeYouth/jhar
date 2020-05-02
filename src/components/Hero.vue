@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container">
         <img src="../assets/jhar-white.png" class="brand" alt="Logo" />
-        <h1 class="title">.عبر، أثّر، غيّر</h1>
+        <h1 class="title">.عبّر، أثّر، غيّر</h1>
 
         <b-button type="is-danger" icon-right="arrow-down-drop-circle" href="#follow-us">
           <strong>تابعونا</strong>
@@ -22,6 +22,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import "@/assets/style.scss";
+
+.title {
+  font-family: "RB-Bold";
+}
 
 h3 {
   margin: 40px 0 0;

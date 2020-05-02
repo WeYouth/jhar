@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'RB-Bold';
+    src: url('RB-Bold.eot');
+    src: local('RB Bold'), local('RB-Bold'),
+        url('RB-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RB-Bold.woff2') format('woff2'),
+        url('RB-Bold.woff') format('woff'),
+        url('RB-Bold.ttf') format('truetype'),
+        url('RB-Bold.svg#RB-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RB-Regular';
+    src: url('RB-Regular.eot');
+    src: local('RB'), local('RB-Regular'),
+        url('RB-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RB-Regular.woff2') format('woff2'),
+        url('RB-Regular.woff') format('woff'),
+        url('RB-Regular.ttf') format('truetype'),
+        url('RB-Regular.svg#RB-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RB-Light';
+    src: url('RB-Light.eot');
+    src: local('RB Light'), local('RB-Light'),
+        url('RB-Light.eot?#iefix') format('embedded-opentype'),
+        url('RB-Light.woff2') format('woff2'),
+        url('RB-Light.woff') format('woff'),
+        url('RB-Light.ttf') format('truetype'),
+        url('RB-Light.svg#RB-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
